@@ -1,3 +1,36 @@
+.icon-bar {
+    width: 90px; /* Set a specific width */
+    background: rgb(100, 100, 100);
+    padding: 10px;
+    width: 120px;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.active {
+    background-color: #DFA35E;
+}
+
+.sidebar_icons:hover {
+  color: #DFA35E;
+}
+
 body {
     background-color: rgb(220, 220, 220);
     font-family: 'Montserrat', sans-serif;
@@ -98,3 +131,5 @@ li {
 .profile-picture {
   box-shadow: 0px 0px 5px rgb(0, 0, 0)
 }
+
+

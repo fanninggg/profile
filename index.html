@@ -7,9 +7,16 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a>
+  <a href="#summary"><i class="fas fa-info"></i></a>
+  <a href="#favorite-movies"><i class="fas fa-video"></i></a>
+  <a href="#help"><i class="fas fa-link"></i></a>
+</div>
+
 <body>
-  <div class="container">
-    <div class="card text-center">
+  <div id="page-content">
+    <div id="summary" class="card text-center">
       <img class="profile-picture img-circle" src="images/ski.jpg" style="width:100px;height:100px">
       <h1>Ben Fanning</h1>
       <h2>Programmer in Waiting</h2>
@@ -18,23 +25,23 @@
       </p>
     </div>
 
-    <div class="card text-center">
+    <div id="favorite-movies" class="card text-center">
       <h2>Decent Films</h2>
       <table>
         <thead>
         </thead>
         <tbody>
           <tr>
-            <td><img src="images/shawshankredemption.jpg" style="width:100px;height:100px;"></td>
+            <td><img src="images/shawshankredemption.jpg" style="width:135px;height:200px;"></td>
             <td>
               <h3>Shawshank Redemption</h3>
               <p>
-              TEST
+              A film about a bloke who gets locked up for something he didn't do.
               </p>
             </td>
           </tr>
           <tr>
-            <td><img src="images/lotr.jpg" style="width:100px;height:100px;"></td>
+            <td><img src="images/lotr.jpg" style="width:135px;height:200px;"></td>
             <td>
               <h3>The Lord of the Rings</h3>
               <p>
@@ -43,7 +50,7 @@
             </td>
           </tr>
           <tr>
-            <td><img src="images/borat.jpeg" style="width:100px;height:100px;"></td>
+            <td><img src="images/borat.jpg" style="width:135px;height:200px;"></td>
             <td>
               <h3>Borat</h3>
               <p>
@@ -55,7 +62,7 @@
       </table>
     </div>
 
-    <div class="card text-center">
+    <div id="help" class="card text-center">
       <h2>My social links:</h2>
       <ol>
         <li><a href="https://www.facebook.com/fanninggg" target="_blank"><i class="fab fa-facebook-f"></i>acebook</a></li>
