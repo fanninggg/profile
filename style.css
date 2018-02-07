@@ -110,6 +110,10 @@ li {
   .card {
     width: 700px;
   }
+
+  .icon-bar {
+    display: none;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
